@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider (input type range) mit VUE</title>
+</head>
+<body>
+    <h1>Slider (input type range) mit VUE</h1>
+    <div id="app">
+        <input v-model="value" type="range" min="5" max="10">
+        <p>Value: {{ value }} </p>
+    </div>
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="app.js"></script>    
+</body>
+</html>
